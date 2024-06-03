@@ -1,0 +1,26 @@
+apiVersion: apps.oms.ibm.com/v1beta1
+kind: OMServer
+metadata:
+  name: omsappserver
+spec:
+  name: omsappserver
+  upgradeStrategy: RollingUpdate
+  replicaCount: 1
+  podLabels:
+    role: app
+  profile: appserverprofile
+  property:
+    customerOverrides: AppServerProperties
+    envVars: EnvironmentVariablesAppServer
+    jvmArgs: JVMArguments
+  appServer:
+    serverName: omsappserver
+    dataSource:
+      maxPoolSize: 25
+      minPoolSize: 10
+    threads:
+      max: 25
+      min: 10
+    vendor: websphere
+    ingress:
+      contextRoots: [smcfs, sbc, sma, isccs, wsc, adminCenter]

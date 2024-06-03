@@ -1,0 +1,11 @@
+apiVersion: operators.coreos.com/v1alpha1
+kind: Subscription
+metadata:
+  name: oms-subscription
+  namespace: oms
+spec:
+  channel: v1.0
+  installPlanApproval: Automatic
+  name: ibm-oms-ent
+  source: ibm-oms-catalog
+  sourceNamespace: oms

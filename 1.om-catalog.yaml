@@ -1,0 +1,14 @@
+apiVersion: operators.coreos.com/v1alpha1
+kind: CatalogSource
+metadata:
+  name: ibm-oms-catalog
+  namespace: oms
+spec:
+  displayName: IBM OMS Operator Catalog
+  # For the image name, see the following catalog source image names table and use the appropriate value.
+  image: 'icr.io/cpopen/ibm-oms-ent-case-catalog:v1.0'
+  publisher: IBM
+  sourceType: grpc 
+  updateStrategy:
+    registryPoll:
+      interval: 10m0s

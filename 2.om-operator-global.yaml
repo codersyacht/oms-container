@@ -1,0 +1,7 @@
+# Operator group with cluster scope
+apiVersion: operators.coreos.com/v1
+kind: OperatorGroup
+metadata:
+  name: oms-operator-global
+  namespace: oms
+spec: {}

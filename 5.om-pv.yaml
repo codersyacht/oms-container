@@ -1,0 +1,14 @@
+kind: PersistentVolume
+apiVersion: v1
+metadata:
+  name: 'oms-pv'
+spec:
+  capacity:
+    storage: 10Gi
+  accessModes:
+    - ReadWriteMany
+  storageClassName: oms-nfs-storage
+  nfs:
+    path: /home/admin/omshare
+    server: 9.30.245.97
+    readOnly: false
