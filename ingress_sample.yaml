@@ -1,0 +1,26 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: oms-ingress
+spec:
+  ingressClassName: nginx
+  tls:
+  - {}
+  rules:
+  - host: oms-omsappserver
+    http:
+      paths:
+      - path: /sbc
+        pathType: Prefix
+        backend:
+          service:
+            name: oms-omsappserver
+            port:
+              number: 9080
+      - path: /smcfs
+        pathType: Prefix
+        backend:
+          service:
+            name: oms-omsappserver
+            port:
+              number: 9080

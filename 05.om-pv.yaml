@@ -9,6 +9,6 @@ spec:
     - ReadWriteMany
   storageClassName: oms-nfs-storage
   nfs:
-    path: /home/admin/omshare
-    server: 9.30.245.97
+    path: /home/admin/apps/omshare
+    server: 9.30.211.182
     readOnly: false

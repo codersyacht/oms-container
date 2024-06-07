@@ -23,4 +23,4 @@ spec:
       min: 10
     vendor: websphere
     ingress:
-      contextRoots: [smcfs, sbc, sma, isccs, wsc, adminCenter]
+      contextRoots: [smcfs, sbc, sma, adminCenter]

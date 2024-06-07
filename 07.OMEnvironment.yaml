@@ -18,8 +18,8 @@ spec:
         http: 9080
         https: 9443
     ingress:
-      host: minikube
-      className: nginx 
+      host: console-openshift-console.apps-crc.testing # Set it to either the OpenShift host url (crc console --url) or the Minikube hostname (minikube).
+      className: # Setting is not required if using OpenShift as Ingress Controller is configured  with default IngressClass. If using Minikube, Ingress has to enabled to activate IngressController and the corresponding IngressClass need to be provided. The name is usually nginx.
       ssl:
         enabled: false
     jwt:
@@ -124,16 +124,16 @@ spec:
       appDefaultName: om-app
       pullPolicy: IfNotPresent
       repository: cp.icr.io/cp/ibm-oms-enterprise
-      tag: 10.0.2309.1-amd64
+      tag: 10.0.2403.2-amd64
   jms:
     mq:
-      bindingConfigName: oms-mqbindings
+      bindingConfigName: om-mqbindings
   dataManagement:
    mode: create
   database:
     db2:
       dataSourceName: jdbc/OMDB
-      host: omsdbinstance.ibm.com
+      host: 9.30.211.182
       name: OMDB
       port: 50000
       schema: OMDB
