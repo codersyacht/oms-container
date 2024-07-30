@@ -127,7 +127,7 @@ spec:
       tag: V10.12
   jms:
     mq:
-      bindingConfigName: oms-mqbindings
+      bindingConfigName: mq-bindings
   dataManagement:
    mode: create
   database:

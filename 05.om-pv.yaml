@@ -10,5 +10,5 @@ spec:
   storageClassName: oms-nfs-storage
   nfs:
     path: /home/admin/apps/omshare
-    server: 9.30.211.182
+    server: 9.30.192.238
     readOnly: false
