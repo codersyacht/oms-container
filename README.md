@@ -13,7 +13,8 @@ _https://github.com/codersyacht/private/blob/main/system/Minikube.md_ <br><br>
 **Operator** Runtime ** need to be installed, follow the link below: <br>
 _https://github.com/codersyacht/private/blob/main/system/Operators.md_ <br><br>
 
-Every installation of user specific applications are performed under apps directory unless it is a system application. Therefore create a directory called _apps_ if not done so,
+Every installation of user specific applications are performed under apps directory unless it is a system application or applications that require a unique user like DB or IBM MQ. 
+Therefore create a directory called _apps_ if not done so.
 
 ```CMD
 mkdir -p /home/admin/apps
