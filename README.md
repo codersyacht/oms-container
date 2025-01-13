@@ -5,16 +5,16 @@
  The complete installation is performed under Linux user _admin_ context. The logged in user should be _admin_ and the user home directory should be /home/admin. 
 The admin user should have sudo rights with password prompt not required.
 To create the admin user with the above mentioned settings, follow the link below: <br>
-_https://github.com/codersyacht/private/blob/main/system/Linux_User_Creation.md_ <br><br>
+_https://github.ibm.com/sterling-order-management-support/sterling-order-management/blob/main/devops/system/02-Linux-User-Creation.md_ <br><br>
 
 **Minikube** need to be installed. If not installed yet, follow the link below: <br>
-_https://github.com/codersyacht/private/blob/main/system/Minikube.md_ <br><br>
+_https://github.ibm.com/sterling-order-management-support/sterling-order-management/blob/main/devops/system/06-Minikube.md_ <br><br>
 
 **HA Proxy** need to be installed. If not installed yet, follow the link below: <br>
-https://github.com/codersyacht/private/blob/main/system/HA_Proxy.md
+_https://github.ibm.com/sterling-order-management-support/sterling-order-management/blob/main/devops/system/07-HA-Proxy.md_
 
 **Operator** Runtime need to be installed, follow the link below: <br>
-_https://github.com/codersyacht/private/blob/main/system/Operators.md_ <br><br>
+_https://github.ibm.com/sterling-order-management-support/sterling-order-management/blob/main/devops/system/08-Operator.md_ <br><br>
 
 Every installation of user specific applications are performed under apps directory unless it is a system application or applications that require a unique user like DB or IBM MQ. 
 Therefore create a directory called _apps_ if not done so.
