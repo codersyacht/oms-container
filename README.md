@@ -18,14 +18,31 @@ _https://github.com/codersyacht/oms-container_. <br>
 
 The directory structure should be as follows:
 
- ```OOUTPUT
+ ```OUTPUT
 [admin@system1 oms-container]$ pwd
 /home/admin/apps/oms-container
-[admin@system1 oms-container]$ ls
-01.om-catalog.yaml          05.om-pv.yaml          09.OMEnvironment_Custom_DB2.yaml       11.OMSAgent.yaml     ingress_sample.yaml
-02.om-operator-global.yaml  06.om-secret.yaml      09.OMEnvironment_Custom_Postgres.yaml  12.OMSInt.yaml       jndi
-03.om-subscription.yaml     07.IBM_Entitlement.sh  09.OMEnvironment.yaml                  13.OrderHub.yaml     portforward.sh
-04.om-storage.yaml          08.MQ_Bindings.sh      10.OMSServer.yaml                      ibm-entitlement-key
+[admin@system1 oms-container]$ ls -ltv
+total 84
+-rw-r--r-- 1 admin admin  415 Dec 30 08:35 01.om-catalog.yaml
+-rw-r--r-- 1 admin admin  156 Dec 30 08:35 02.om-operator-global.yaml
+-rw-r--r-- 1 admin admin  237 Dec 30 08:35 03.om-subscription.yaml
+-rw-r--r-- 1 admin admin  269 Dec 30 08:35 04.om-storage.yaml
+-rw-r--r-- 1 admin admin  258 Dec 30 08:35 05.om-pv.yaml
+-rw-r--r-- 1 admin admin  259 Dec 30 08:35 06.om-secret.yaml
+-rw-r--r-- 1 admin admin  232 Dec 30 08:35 07.IBM_Entitlement.sh
+-rw-r--r-- 1 admin admin   63 Dec 30 08:35 08.MQ_Bindings.sh
+-rw-r--r-- 1 admin admin 5265 Dec 30 08:35 09.OMEnvironment.yaml
+-rw-r--r-- 1 admin admin 5160 Jan 10 05:17 09.OMEnvironment_Custom_DB2.yaml
+-rw-r--r-- 1 admin admin 5297 Dec 30 08:35 09.OMEnvironment_Custom_Postgres.yaml
+-rw-r--r-- 1 admin admin  528 Dec 30 08:35 10.OMSServer.yaml
+-rw-r--r-- 1 admin admin  266 Dec 30 08:35 11.OMSAgent.yaml
+-rw-r--r-- 1 admin admin  401 Dec 30 08:35 12.OMSInt.yaml
+-rw-r--r-- 1 admin admin 1231 Dec 30 08:35 13.OrderHub.yaml
+-rw-r--r-- 1 admin admin  193 Dec 30 08:35 ibm-entitlement-key
+-rw-r--r-- 1 admin admin  504 Dec 30 08:35 ingress_sample.yaml
+drwxr-xr-x 2 admin admin   23 Dec 30 08:36 jndi
+-rw-r--r-- 1 admin admin   91 Dec 30 08:35 portforward.sh
+[admin@system1 oms-container]$ 
 ```
 
 
