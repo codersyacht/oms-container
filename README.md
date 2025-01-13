@@ -160,7 +160,7 @@ kubectl apply -f 12.OMSInt.yaml -n oms
 kubectl apply -f 13.OrderHub.yaml -n oms
 ```
 
-**Hitting the OMS application console**
+**Accessing the OMS application console**
 
 Edit /etc/hosts file of your local machine from where browser will be launched. Add the following line: <br>
 ```
