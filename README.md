@@ -10,7 +10,10 @@ _https://github.com/codersyacht/private/blob/main/system/Linux_User_Creation.md_
 **Minikube** need to be installed. If not installed yet, follow the link below: <br>
 _https://github.com/codersyacht/private/blob/main/system/Minikube.md_ <br><br>
 
-**Operator** Runtime ** need to be installed, follow the link below: <br>
+**HA Proxy** need to be installed. If not installed yet, follow the link below: <br>
+https://github.com/codersyacht/private/blob/main/system/HA_Proxy.md
+
+**Operator** Runtime need to be installed, follow the link below: <br>
 _https://github.com/codersyacht/private/blob/main/system/Operators.md_ <br><br>
 
 Every installation of user specific applications are performed under apps directory unless it is a system application or applications that require a unique user like DB or IBM MQ. 
