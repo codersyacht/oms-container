@@ -133,7 +133,7 @@ Execute the below command: <br>
 Edit the 09.OMEnvironment.yaml file. Verify all the properties. If the complete setup is based on this repository, then the only change perhaps that is required will be database:db2:host value.
 
 ```CMD
-kubectl -apply -y 09.OMEnvironment.yaml -n oms
+kubectl apply -f 09.OMEnvironment.yaml -n oms
 ```
 
 **10. Sterling OMS Application Server installation**
