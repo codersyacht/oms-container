@@ -11,7 +11,23 @@ _https://github.com/codersyacht/private/blob/main/system/Linux_User_Creation.md_
 _https://github.com/codersyacht/private/blob/main/system/Minikube.md_ <br><br>
 
 **Operator** Runtime ** need to be installed, follow the link below: <br>
-_https://github.com/codersyacht/private/blob/main/system/Operators.md_
+_https://github.com/codersyacht/private/blob/main/system/Operators.md_ <br><br>
+
+Clone or download this repository under /hope/admin/apps/ <br>
+_https://github.com/codersyacht/oms-container_. <br>
+
+The directory structure should be as follows:
+
+ ```OOUTPUT
+[admin@system1 oms-container]$ pwd
+/home/admin/apps/oms-container
+[admin@system1 oms-container]$ ls
+01.om-catalog.yaml          05.om-pv.yaml          09.OMEnvironment_Custom_DB2.yaml       11.OMSAgent.yaml     ingress_sample.yaml
+02.om-operator-global.yaml  06.om-secret.yaml      09.OMEnvironment_Custom_Postgres.yaml  12.OMSInt.yaml       jndi
+03.om-subscription.yaml     07.IBM_Entitlement.sh  09.OMEnvironment.yaml                  13.OrderHub.yaml     portforward.sh
+04.om-storage.yaml          08.MQ_Bindings.sh      10.OMSServer.yaml                      ibm-entitlement-key
+```
+
 
 **Installation of OMS Containers**
 
