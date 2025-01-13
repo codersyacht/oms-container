@@ -23,7 +23,7 @@ Therefore create a directory called _apps_ if not done so.
 mkdir -p /home/admin/apps
 ```
 
-Clone or download this repository under /hope/admin/apps/ <br>
+Clone or download this repository under /home/admin/apps/ <br>
 _https://github.com/codersyacht/oms-container_. <br>
 
 The directory structure should be as follows:
