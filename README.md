@@ -160,3 +160,12 @@ kubectl apply -f 12.OMSInt.yaml -n oms
 kubectl apply -f 13.OrderHub.yaml -n oms
 ```
 
+**Hitting the OMS application console**
+
+Edit /etc/hosts file of your local machine from where browser will be launched. Add the following line: <br>
+```
+9.30.87.106 omsappserver-oms.minikube
+```
+The ip address is the ip address of the machine where the minikube/HA proxy is installed and running. <br>
+Access the api tester using the folllowing URL: <br>
+_https://omsappserver-oms.minikube/smcfs/yfshttpapi/yantrahttpapitester.jsp_
