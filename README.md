@@ -139,19 +139,19 @@ kubectl -apply -y 09.OMEnvironment.yaml -n oms
 kubectl apply -f 10.OMSServer.yaml -n oms
 ```
 
-**11. Sterling OMS Agent Integration**
+**11. Sterling OMS Agent Installation**
 
 ```CMD
 kubectl apply -f 11.OMSAgent.yaml -n oms
 ```
 
-**12. Sterling OMS Integration Integration**
+**12. Sterling OMS Integration Server Installation**
 
 ```CMD
 kubectl apply -f 12.OMSInt.yaml -n oms
 ```
 
-**13. Sterling OMS Orderhub Integration**
+**13. Sterling OMS Orderhub Installation**
 
 ```CMD
 kubectl apply -f 13.OrderHub.yaml -n oms
