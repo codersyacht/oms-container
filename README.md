@@ -25,7 +25,7 @@ _https://github.com/codersyacht/oms-container_. <br>
 
 The directory structure should be as follows:
 
- ```OUTPUT
+ ```CMD
 [admin@system1 oms-container]$ pwd
 /home/admin/apps/oms-container
 [admin@system1 oms-container]$ ls -ltv
