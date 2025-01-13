@@ -118,9 +118,9 @@ Execute the below command:
 
 A sample jndi file is available in the ./jndi directory. The file name is .binding (note the the file will be hidden as it has . prefix. However it can still be opened using vi editor). 
 It is already preconfigured with a Queue Manager named **OMQM** and 10 queues namely OMQUEUE0, OMQUEUE1, .., OMQUEUE9. Therefore create a a Queue Manager as OMQM and 10 queues as OMQUEUE0, OMQUEUE1, .., OMQUEUE9 in your IBM MQ. You can follow the steps mentioned in the following link: <br>
-_https://github.com/codersyacht/private/blob/main/MQ/01.Setup.md_ <br>
+_https://github.ibm.com/sterling-order-management-support/sterling-order-management/blob/main/devops/mq/01-Setup.md_ <br>
 Ensure the setup works using a standalone client: <br>
-_https://github.com/codersyacht/private/blob/main/MQ/02.Client-Setup.md_ <br><br>
+_https://github.ibm.com/sterling-order-management-support/sterling-order-management/blob/main/devops/mq/02-Client-Setup.md_ <br><br>
 
 Edit the ./jndi/.bindings file to change the host name mentioned as system1.fyre.ibm.com to the hostname where the Queue Manager in setup. <br>
 Execute the below command: <br>
