@@ -18,8 +18,8 @@ spec:
         http: 9080
         https: 9443
     ingress:
-      host: console-openshift-console.apps-crc.testing # Set it to either the OpenShift host url (crc console --url) or the Minikube hostname (minikube).
-      className: # Setting is not required if using OpenShift as Ingress Controller is configured  with default IngressClass. If using Minikube, Ingress has to enabled to activate IngressController and the corresponding IngressClass need to be provided. The name is usually nginx.
+      host: minikube # Set it to either the OpenShift host url - console-openshift-console.apps-crc.testing  (crc console --url) or the Minikube hostname (minikube).
+      className: nginx # Setting is not required if using OpenShift as Ingress Controller is configured  with default IngressClass. If using Minikube, Ingress has to enabled to activate IngressController and the corresponding IngressClass need to be provided. The name is usually nginx.
       ssl:
         enabled: false
     jwt:
