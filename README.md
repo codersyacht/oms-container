@@ -82,7 +82,7 @@ kubectl apply -f 03.om-subscription.yaml -n oms
 **4. Storage Class installation**
 
 NFS folder need to be created as /home/admin/apps/omshare. <br>
-_https://github.com/codersyacht/private/blob/main/system/Create_NFS_Disk.md_
+_https://github.com/codersyacht/techhub/blob/main/system/Create_NFS_Disk.md_
 
 ```CMD
 kubectl apply -f 04.om-storage.yaml -n oms
