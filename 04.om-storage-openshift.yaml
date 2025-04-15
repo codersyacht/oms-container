@@ -1,9 +1,9 @@
 kind: StorageClass
 apiVersion: storage.k8s.io/v1
 metadata:
-  name: oms-pv
+  name: oms-kubevirt-storage
   annotations:
-    description: oms-pv
+    description: oms-kubevirt-storage
 provisioner: kubevirt.io.hostpath-provisioner
 parameters:
   storagePool: local
