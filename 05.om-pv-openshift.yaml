@@ -10,8 +10,6 @@ spec:
     volumeHandle: oms-pv
     volumeAttributes:
       csi.storage.k8s.io/pv/name: oms-pv
-      csi.storage.k8s.io/pvc/name: oms-pvc
-      csi.storage.k8s.io/pvc/namespace: oms
       storagePool: local
   accessModes:
     - ReadWriteMany
